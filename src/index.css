@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --font-family-sans: "Inter";
+  --color-Ebony: #090D1F;
+  --color-Eerie-Black: #1A1A1A;
+  --color-Moderate-violet: #6941C6;
+  --color-Slate_Blue: #7F56D9;
+  --color-Governor-Bay: #3538CD;
+  --color-Magenta-pink: #C11574;
+  --color-AuroMetal: #667085;
+  --color-Blue-magenta: #F9F5FF;
+  --color-Alice-Blue: #EEF4FF;
+  --color-Light-grayish-pink: #FDF2FA;
+  --color-Dark-Blue: #026AA2;
+  --color-Mint-Cream: #ECFDF3;
+  --color-lime-green: #027A48;
+  --color-Ghost-White: #F8F9FC;
+  --color-Torea-Bay: #363F72;
+  --color-Seashell: #FFF6ED;
+  --color-Dark-washed-red: #C4320A;
+  --color-pink: #C01048;
+  --color-Lavender-Blush: #FFF1F3;
+  --color-Sky-Blue: #F0F9FF;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-family-sans);
+  }
+}
